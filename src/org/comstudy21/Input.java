@@ -22,7 +22,7 @@ public class Input extends HttpServlet {
 		String name = request.getParameter("name");
 		String email = request.getParameter("email");
 		String phone = request.getParameter("phone");
-		
+		//asdasgawt
 		PrintWriter pw = response.getWriter();
 		pw.printf("%s, %s, %s\n", name, email, phone);
 		pw.close();
